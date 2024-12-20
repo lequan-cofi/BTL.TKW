@@ -32,8 +32,8 @@
   }
   
   #list-danhmuc .img-wrapper {
-    background-color: #fff;
-    border-radius: 12px;
+    background-color: transparent; 
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +172,10 @@
   }
   
   #product .wrapper-product img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng container */
+    height: auto; /* Duy trì tỷ lệ gốc */
     border-radius: 12px;
+    margin-top: 10px;
   }
   
   #product .text-heading {
