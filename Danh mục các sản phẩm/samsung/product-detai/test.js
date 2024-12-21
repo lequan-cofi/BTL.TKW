@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 mainImage.src = imgSrc;
                 mainImage.style.transform = 'translateX(0)';
                 mainImage.style.opacity = '1';
-            }, 500); // Delay khớp với thời gian của transition (0.5s)
+            },500); // Delay khớp với thời gian của transition (0.5s)
         });
     });
 });
