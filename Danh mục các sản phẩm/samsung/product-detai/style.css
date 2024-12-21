@@ -731,9 +731,13 @@
     .last-price span{
         color: #f64749;
         text-decoration: line-through;
+        font-weight: bold;
+        font-size: 15pt;
     }
     .new-price span{
         color: #256eff;
+        font-weight: bold;
+        font-size: 30pt;
     }
     .product-detai1 h2{
         text-transform: capitalize;
