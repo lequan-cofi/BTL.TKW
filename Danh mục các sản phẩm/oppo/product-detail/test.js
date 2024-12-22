@@ -93,16 +93,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Thay đổi trạng thái dung lượng khi chọn
-    const storageOptions = document.querySelectorAll('#dung-luong .option');
-    storageOptions.forEach(option => {
-        option.addEventListener('click', () => {
-            // Xóa class 'selected' khỏi tất cả tùy chọn
-            storageOptions.forEach(opt => opt.classList.remove('selected'));
-            // Thêm class 'selected' vào tùy chọn được chọn
-            option.classList.add('selected');
-        });
-    });
+    // // Thay đổi trạng thái dung lượng khi chọn
+    // const storageOptions = document.querySelectorAll('#dung-luong .option');
+    // storageOptions.forEach(option => {
+    //     option.addEventListener('click', () => {
+    //         // Xóa class 'selected' khỏi tất cả tùy chọn
+    //         storageOptions.forEach(opt => opt.classList.remove('selected'));
+    //         // Thêm class 'selected' vào tùy chọn được chọn
+    //         option.classList.add('selected');
+    //     });
+    // });
 
     // Thay đổi trạng thái màu sắc khi chọn
     const colorOptions = document.querySelectorAll('#mau-sac .option');
