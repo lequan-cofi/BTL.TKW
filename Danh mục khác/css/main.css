@@ -63,14 +63,14 @@ button:hover {
 /* === Banner === */
 #banner {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
 }
 
 .banner__img {
   position: absolute;
-  top: 0;
+  top: 10;
   right: 0;
   z-index: -1;
 }
@@ -84,7 +84,7 @@ button:hover {
 
 .banner__heading h1 {
   font-size: 2.25rem;
-  padding-top: 4em;
+  padding-top: 1em;
   margin-bottom: 0.8em;
 }
 
@@ -136,7 +136,7 @@ button:hover {
 #things {
   position: relative;
   overflow-x: hidden;
-  margin-top: 15em;
+  margin-top: 0.5em;
 }
 
 #things h2 {
