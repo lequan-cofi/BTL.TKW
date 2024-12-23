@@ -855,6 +855,7 @@ img {
 }
 
 #new-product .new-iphone {
+  margin-top: 50px;
   width: 327.5px;
   height: 545px;
   overflow: hidden;
@@ -862,8 +863,8 @@ img {
 }
 
 #new-product .new-iphone img {
-  height: 100%;
-  width: 100%;
+  width: 350px;
+  height: 400px;
   transition: all 0.6s;
   object-fit: cover;
 }
@@ -886,9 +887,11 @@ img {
 }
 
 #new-product .new-item .text-heading {
+  margin-top: 130px;
   font-size: 24px;
-  color: #fff;
+  color: #5d84b3;
   padding: 10px 0;
+  font-weight: 700;
 }
 
 #new-product .new-item .button-2 {
@@ -945,6 +948,7 @@ img {
 #new-product .wrapper-product {
   position: relative;
   width: 250px;
+
   /* height: 300px; */
   background-color: #fff;
   border-radius: 12px;
@@ -957,7 +961,12 @@ img {
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-
+#new-product .wrapper-product img {
+  max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng container */
+  height: auto; /* Duy trì tỷ lệ gốc */
+  border-radius: 12px;
+  margin-top: 10px;
+}
 #new-product .label {
   position: absolute;
   top: 0;
@@ -1116,7 +1125,8 @@ img {
 /* START POSTER*/
 
 #poster {
-  margin-left: 58px;
+  border-radius: 12px;
+  margin-left: 100px;
   margin-top: 40px;
   height: 601px;
   width: 1459px;
@@ -1186,7 +1196,8 @@ img {
 }
 
 #poster .item img {
-  height: 110px;
+  margin-top: 10px;
+  height: 90px;
   border-radius: 12px;
 }
 
@@ -1329,9 +1340,15 @@ img {
 }
 
 #microsoft .box .text-heading {
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
+  margin-top: 49px;
+  margin-left: 28px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2761e7;
+  line-height: 30px; /* Đặt bằng kích thước font chữ */
+  background: rgba(244, 244, 244, 0.6); /* Màu nền */
+  display: inline-block; /* Giới hạn nền đúng kích thước chữ */
+  padding: 0 8px; /* Khoảng cách ngang (tùy chọn) */
 }
 
 #microsoft .box .text-description {
@@ -1341,6 +1358,7 @@ img {
 }
 
 #microsoft .box .add-product {
+  margin-left: 87px;
   width: 98.6px;
   height: 36px;
   background-color: #fff;
@@ -1361,8 +1379,9 @@ img {
 #microsoft .wrapper-product {
   position: relative;
   width: 100%;
-  /* height: 300px; */
   background-color: #fff;
+  /* height: 300px; */
+
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -1489,7 +1508,7 @@ img {
 }
 
 #seen .item {
-  width: 258px;
+  width: 300px;
   height: 101.5px;
   background-color: #fff;
   display: flex;
@@ -1506,11 +1525,11 @@ img {
   font-size: 15px;
   color: #333;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #seen .item .price {
-  margin-top: 10px;
+  margin-top: 5px;
   color: #1c61e7;
   font-weight: 600;
 }
@@ -1916,9 +1935,11 @@ img {
   font-size: 14px;
 }
 
-#footer-2 .logo {
-  display: block;
-  margin-bottom: 15px;
+#footer-2 .logo img {
+  margin-left: 20px;
+
+    margin-top: 20px;
+    width: auto; /* Bo góc 15px */
 }
 
 #footer-2 .footer-2-item {
@@ -2003,7 +2024,9 @@ img {
 #footer-2 li:hover a {
   color: #1c61e7;
 }
-
+#footer-2 .logo2 img {
+  color: #1c61e7;
+}
 /*END FOOTER-2*/
 
 hr {
