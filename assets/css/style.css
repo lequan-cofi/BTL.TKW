@@ -1922,7 +1922,40 @@ img {
 }
 
 /*END FOOTER*/
+/* cro-buttons */
+#cro-buttons {
+  width: 100px;
+  height: 100px;
+  color: #20298e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+  flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+    gap: 15px; /* Khoảng cách giữa các nút */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    
+    }
+  .fas {
+    font-size: 20px;
+    color: #fff;
+    background-color: #20298e;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
 
+#cro-buttons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 /*START FOOTER-2*/
 
 #footer-2 {
@@ -2317,3 +2350,6 @@ a.logo img {
   max-width: 100%;
   width: 100%;
 }
+
+
+

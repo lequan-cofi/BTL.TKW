@@ -1,3 +1,22 @@
+
+
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $('#cro-buttons').fadeIn();
+        } else {
+            $('#cro-buttons').fadeOut();
+        }
+    });
+    $('#cro-buttons').click(function(){
+        $("html, body").animate({scrollTop: 0}, 600);
+        return false;
+    });
+
+});
+
+
 var wrapper = document.querySelector("#about")
 
 console.log(wrapper)
@@ -24,5 +43,3 @@ button.addEventListener('click', function(){
         overlay.style.display = 'none'
     }
 })
-
-
