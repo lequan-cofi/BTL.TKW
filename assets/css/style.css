@@ -382,7 +382,7 @@ a:focus {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
+  padding-top: 217px;
 }
 
 #content .left {
@@ -411,7 +411,12 @@ a:focus {
   font-size: 36px;
   height: 50.4px;
 }
-
+.text-description2 {
+  color: #fff;
+  font-size: 15px;
+  height: 24px;
+  padding-top: 5px;
+}
 #content .left .text-content .text-description {
   color: #fff;
   font-size: 15px;
@@ -448,6 +453,7 @@ a:focus {
 }
 
 .img-3 {
+  margin-top: 5px;
   transition: 0.6s;
 }
 
@@ -619,7 +625,7 @@ a:focus {
 
 #list-product .more-products {
   color: #848484;
-  padding-top: 10px;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -741,7 +747,10 @@ img {
 }
 
 #sales .wrapper-product img {
-  margin: auto;
+  max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng container */
+  height: auto; /* Duy trì tỷ lệ gốc */
+  border-radius: 12px;
+  margin-top: 10px;
 }
 
 #sales .text-heading {
@@ -2143,9 +2152,9 @@ hr {
 
 /*START san pham moi*/
 #list-product {
+  margin-top: 60px;
+  margin-bottom: 60px;
   margin-left: 100px;
-  margin-top: 60px;
-  margin-top: 60px;
 }
 
 #list-product a {
@@ -2167,6 +2176,7 @@ hr {
   width: 196.56px;
   height: 247.76px;
   padding: 0 10px 0 10px;
+  margin-left: 120px;
 }
 
 #list-product .img-wrapper {
