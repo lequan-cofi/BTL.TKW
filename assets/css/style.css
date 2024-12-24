@@ -189,6 +189,7 @@ a:focus {
   width: 800px;
   height: 46px;
   margin: 17px 0 0 35px;
+  padding-bottom: auto;
   }
   
   .search-bar input {
@@ -2353,3 +2354,87 @@ a.logo img {
 
 
 
+.cart-page {
+  position: fixed;
+  height: 700px;
+  width: 400px;
+  right: 0;
+  top: 0;
+  background-color: #e6f2f9;
+  padding: 12px 20px;
+  overflow-y: scroll;
+  margin-top: 140px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  transition: all 0.6s ease; /* Hiệu ứng mượt mà khi chuyển trạng thái */
+  z-index: 999; /* Đảm bảo nằm trên các phần tử khác */
+  right: -100%;
+}
+.cart-page .table img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.cart-page button {
+  height: 30px;
+  padding: 2px 10px;
+  text-align: center;
+  color: #ffffff;
+  background: #2761e7;
+  border: none;
+  border-radius: 5px;
+  margin-left: 150px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.cart-page .table {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 45px;
+  height: auto;
+}
+
+.cart-page .table .thead-dark th {
+  text-align: center;
+  background: #1a3f97;
+  border-color: #1a3f97;
+  vertical-align: middle;
+}
+
+.cart-page .table td {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+.cart-page .table .qty {
+  display: inline-block;
+}
+.cart-page .qty {
+  width: 10px;
+  
+}
+.cart-page .qty input[type="number"]{
+  margin-right: auto;
+  width: 50px; /* Chiều rộng của ô nhập số */
+  height: 40px; /* Chiều cao của ô nhập số */
+  text-align: center; /* Canh giữa số bên trong ô */
+  font-size: 16px; /* Kích thước chữ */
+  border: 1px solid #ccc; /* Đường viền của ô */
+  border-radius: 8px; /* Bo tròn góc */
+  padding: 2px; /* Khoảng cách bên trong ô */
+  outline: none; /* Loại bỏ viền mặc định khi focus */
+  
+} 
+
+.cart-delete {
+  display: flex; /* Đặt flexbox để dễ căn chỉnh */
+  align-items: center; /* Canh giữa theo chiều dọc */
+  justify-content: center; /* Canh giữa theo chiều ngang */
+  width: 40px; /* Chiều rộng nút */
+  height: 40px; /* Chiều cao nút */
+  background-color: #c0c6db; /* Màu nền nút */
+  border-radius: 8px; /* Bo tròn các góc */
+  cursor: pointer; /* Con trỏ khi hover */
+  transition: transform 0.2s ease; /* Hiệu ứng thu phóng khi hover */
+}
